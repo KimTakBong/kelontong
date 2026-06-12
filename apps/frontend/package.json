@@ -1,0 +1,30 @@
+{
+  "name": "klontong-admin-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Klontong Admin — Nuxt 3 frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.5",
+    "axios": "^1.7.7",
+    "nuxt": "3.14.1592",
+    "pinia": "^2.2.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.6.1",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3",
+    "vue-tsc": "^2.1.6"
+  }
+}
